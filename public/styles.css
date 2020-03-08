@@ -1,0 +1,57 @@
+.container {
+    background-color: lightblue;
+}
+
+.main-container {
+    padding-left: 25px;
+    padding-top: 30px;
+}
+
+.chatbox-container{
+    position: relative;
+    height: 500px;
+    background-color: white;
+    border: 2px black solid;
+}
+
+.chatbox {
+    position: absolute;
+    bottom: 0;
+    max-height: 490px;
+    width: 100%; 
+    overflow-y: scroll;
+}
+
+.chat-user-container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.users {
+    background-color: white;
+    height: 500px;
+    border: 2px black solid; 
+    overflow-y: scroll;
+}
+
+.message-box {
+    background-color: lightblue;
+    height: 100px;
+    padding-bottom: 20px;
+}
+
+.text-box {
+    margin-top: 25px;
+}
+
+.button {
+    margin-top: 25px;
+}
+
+.color {
+    color: #111111;
+}
+
+.error {
+    display: none;
+}
